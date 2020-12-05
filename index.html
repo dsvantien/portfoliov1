@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
+    <link rel="shortcut icon" href="resources/css/image/favicon.ico"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <title>Nguyễn Văn Tiền | Web Developer</title>
+</head>
+<body>
+    <header>
+        <nav >
+            <div class="row">
+                <div class="logo">T</div>
+                <!-- <img src="resources/img/logo-white.png" alt="Omnifood logo" class="logo">
+                <img src="resources/img/logo.png" alt="Omnifood logo" class="logo-black"> -->
+                <ul class="main-nav js--main-nav clearfix">
+                    <li><a href="#about">ABOUT</a></li>
+                    <!-- <li><a href="#">EXPERIENCE</a></li> -->
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#work">WORK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="fas fa-bars"></i></a>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Hi, I'm Tien</h1>
+            <p class="subtitle">Web Developer</p>
+            <a href="#" class="btn btn-contact js--contact-button">Contact me</a>
+            
+        </div>
+    </header>
+    <section class="section-about js--section-about" id="about">
+        <div class="row">
+                <h2>A LITTLE BIT ABOUT ME</h2>
+                <img src="resources/css/image/profile.jpg" alt="Nguyen van Tien" class="about-img">
+                <p class="long-copy">
+                    Hey! My name is Tien and I'm currently a last year student at Aptech and I have already taken a few online courses on Udemy focus on Javascript, Nodejs, and How to buil responsive websites with HTML5, CSS3
+                    . I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
+                    and I'm always eager to learn more in this fast paced industry.        
+                </p>
+                <div class="info">
+                    <span><i class="far fa-envelope-square"></i>dsvantienvmmu@gmail.com</span>
+                    <span><i class="far fa-phone-square-alt"></i></i>0768550509</span>
+                </div>
+        </div>
+    </section>
+    <section class="section-view-resume js--section-features" id="features">
+        <div class="row">
+                <h2>View my full résumé</h2>
+                <a href="resources/Resume.pdf" class="btn btn-contact" target="_blank">Grab A Copy</a>
+               
+        </div>
+    </section>
+    <section class="section-skills js--section-features" id="skills">
+        <div class="row">
+            <h2 class="skills-title">Skills</h2>
+        </div>
+        <div class="box-skill">
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div class="title-icon">
+                    <i class="fas fa-code icon-big"></i>
+                    development 
+                </div>
+                    <div class="skill-language ">
+                        <div>JavaScript</div>
+                        <div>Jquery</div>
+                        <div>HTML</div>
+                        <div>CSS3</div>
+                        <div>Node.js</div>
+                        <div>Express</div>
+                        <div>Sequelize</div>
+                    </div>
+               
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="box-skill-item">
+                <div class="title-icon">
+                    <i class="far fa-tools icon-big"></i>
+                    Tools
+                </div>
+                <ul class="skill-items">
+                    <li>Git + Github</li>
+                    <li>Chrome DevTools</li>
+                    <li>Postman</li>    
+                    <li>Command Line</li>
+                </ul>
+            </div>
+            </div>
+            <div class="col span-1-of-3">
+                <div class="box-skill-item">
+                    <div class="title-icon">
+                        <i class="far fa-lightbulb-on icon-big"></i>
+                            KNOWLEDGE
+                    </div>
+                <ul class="skill-items">
+                    <li>ECMAScript 6</li>
+                    <li>WordPress</li>
+                    <li>SEO</li>
+                    <li>Photoshop</li> 
+                    <li>Illustrator</li> 
+                </ul>
+            </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="section-work js--section-features" id="work">
+        <div class="row">
+                <h2>Some Things I’ve Built</h2>
+        </div>
+        <div class="row carousel-box">
+            <div class="col span-1-of-3">
+                <div class="carousel">
+                    <figure class="carousel-photo">
+                        <img src="resources/images/nhathuoc.png" alt="nhathuocbichthanh">
+                    </figure>
+                    <button class="btn-detail pharmar">MORE DETAILS</button>
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="carousel">
+                    <figure class="carousel-photo">
+                        <img src="resources/images/tusach.png" alt="tusachmienphi">
+                    </figure>
+                     <button class="btn-detail book">MORE DETAILS</button>
+                </div>
+            </div>
+
+            <div class="col span-1-of-3">
+                <div class="carousel">
+                    <figure class="carousel-photo">
+                        <img src="resources/images/blog.png" alt="Granola with cherries and strawberries">
+                    </figure>
+                     <button class="btn-detail blog">MORE DETAILS</button>
+                </div>
+            </div>
+        </div>
+<!--
+        <div class="row">
+            <h2>Some Things I practiced on online courses</h2>
+        </div>
+        <div class="row carousel-box">
+            <div class="col span-1-of-3">
+                <div class="carousel">
+                    <figure class="carousel-photo">
+                        <img src="resources/css/image/contact.jpg" alt="Granola with cherries and strawberries">
+                    </figure>
+                     <button class="btn-detail">MORE DETAILS</button>
+                </div>
+            </div>
+        </div>
+-->
+        
+<!--        modal-->
+       <div class="container-modal pharmar">
+           <div class="modal">
+              <div class="popup__left">
+                    <img src="resources/images/nhathuoc1.png" alt="Tour photo" class="popup__img">
+                    <img src="resources/images/nhathuoc2.png" alt="Tour photo" class="popup__img">
+                </div>
+            <div class="popup__right">
+              <button class="close-btn">
+                  <i class="fal fa-times"></i>
+              </button>
+               <h3>About my project</h2>
+                 <div class="row">
+                  <div class="col span-1-of-2">
+                   <h5>Client side </h5>
+                   <ul>
+                       <li>Reactjs</li>
+                       <li>Html</li>
+                       <li>Css</li>
+                       <li>Boostrap 4</li>
+                   </ul>
+                </div>
+                <div class="col span-1-of-2">
+                   <h5>Server side </h5>
+                   <ul>
+                       <li>Nodejs</li>
+                       <li>Express</li>
+                       <li>Mongoose</li>
+                       <li>MongoDb</li>
+                   </ul>
+                </div>
+                 </div>
+                  <p>In doing this project, I actually understand about RESTful API with nodejs, client side rendering and how authentication with JWT works. I know basic reactjs, mongoose as well. I deployed nodejs server on Heroku and the client side on Firebase. </p>
+                   <a href="https://nguyenvantien-dev.web.app/" target="_blank" class="btn btn-contact">VIEW PROJECT</a>
+               </div>
+            </div>
+       </div>
+       <div class="container-modal book">
+           <div class="modal">
+              <div class="popup__left">
+                    <img src="resources/images/book1.png" alt="Tour photo" class="popup__img">
+                    <img src="resources/images/book2.png" alt="Tour photo" class="popup__img">
+                </div>
+            <div class="popup__right">
+              <button class="close-btn">
+                  <i class="fal fa-times"></i>
+              </button>
+               <h3>About my project</h2>
+                 <div class="row">
+                  <div class="col span-1-of-2">
+                   <h5>Client side </h5>
+                   <ul>
+                       <li>Ejs template</li>
+                       <li>Css</li>
+                       <li>Boostrap 4</li>
+                   </ul>
+                </div>
+                <div class="col span-1-of-2">
+                   <h5>Server side </h5>
+                   <ul>
+                       <li>Nodejs</li>
+                       <li>Express</li>
+                       <li>Sequelize</li>
+                       <li>Mysql</li>
+                   </ul>
+                </div>
+                 </div>
+                  <p>In doing this project, I actually understand about server side rendering with nodejs, express, ejs template and how authentication with session-cookie works. I know basic mysql, sequelize as well. All data from this project I crawled from sachvui.vn. In the end, I deployed my node application on Heroku.</p>
+                   <a href="http://tusachmienphi.herokuapp.com/category/1" target="_blank" class="btn btn-contact">VIEW PROJECT</a>
+               </div>
+            </div>
+       </div>    
+       <div class="container-modal blog">
+           <div class="modal">
+              <div class="popup__left">
+                    <img src="resources/images/blog.png" alt="Tour photo" class="popup__img">
+                    <img src="resources/images/blog1.png" alt="Tour photo" class="popup__img">
+                </div>
+            <div class="popup__right">
+              <button class="close-btn">
+                  <i class="fal fa-times"></i>
+              </button>
+               <h3>About my project</h2>
+                   <p>This is my own simple blog that I created to store some useful stuff like the color I like, some useful links, enslish vocabulary and so on. this project I used Nodejs, express, mongodb and ejs template. </p>
+                   <a href="https://tienrepo.herokuapp.com/signin" target="_blank" class="btn btn-contact">VIEW PROJECT</a>
+               </div>
+            </div>
+       </div>
+       
+
+        
+    </section>
+
+    <section class="section-contact js--section-contact" id="contact">
+        <div class="row">
+                <h2>Get In Touch</h2>
+                <p>Feel free to send me a message!</p>
+            </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <div class="row">
+                            <p class="mess-success">Thank you for sending me a message, I will respond as soon as possible!</p>
+                        </div>
+                    <!-- <form class="contact-form" id="target"> -->
+                        <div class="row">
+                                <span class="contact-label">Name</span>
+                                <input type="text" name="name" id="name" required>
+                        </div>
+                        <div class="row">
+                                <span class="contact-label">Email</span>
+                                <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="row">
+                                <span class="contact-label">Message</span>
+                                <textarea name="message" id="mess"></textarea>
+                        </div>
+                            <!-- <input type="submit" value="Send it!" class="btn-massage"> -->
+                            <button onclick="postData()" class="btn-massage">Send it!</button>
+                    <!-- </form> -->
+                </div>
+                </div>
+
+    </section>
+
+    <footer>
+        <div class="row">
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com/vantien.nguyen.581187" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/dsvantien1"><i class="fab fa-twitter-square"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/tien-nguyen-9164bb188/"><i class="fab fa-linkedin"></i></i></a></li>
+                    <li><a target="_blank" href="https://github.com/dsvantien"><i class="fab fa-github-square"></i></i></a></li>
+                </ul>
+        </div>
+        <div class="row">
+            <p>
+                <i class="far fa-copyright"></i>
+                Nguyen Van Tien 2020
+            </p>
+        </div>
+        <div class="up-to-top">
+        <i class="fas fa-arrow-up" ></i>
+        </div>
+    </footer>
+ <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBra-NXJ9l0BwvW47NK-3ncHmQGctm5EGg",
+    authDomain: "data-dabe7.firebaseapp.com",
+    databaseURL: "https://data-dabe7.firebaseio.com",
+    projectId: "data-dabe7",
+    storageBucket: "data-dabe7.appspot.com",
+    messagingSenderId: "143325081706",
+    appId: "1:143325081706:web:c2d780ba118b90e4829a13",
+    measurementId: "G-3Y475VGYL1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  function postData(){
+    firebase.database().ref("User").push({
+      name:document.getElementById('name').value,
+      email:document.getElementById('email').value,
+      message:document.getElementById('mess').value
+    })
+    document.querySelector(".contact-form p").style.display = "block"
+    document.getElementById('name').value="";
+    document.getElementById('email').value="";
+    document.getElementById('mess').value="";
+}
+  firebase.analytics();
+</script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
